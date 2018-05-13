@@ -1,0 +1,60 @@
+  auth_token: !secret konnected_auth_token
+  devices:
+    - id: 0FBABA
+      binary_sensors:
+        - zone: 1
+          type: motion
+          name: Living Room Motion
+        - zone: 2
+          type: window
+          name: Master Bedroom Windows
+        - zone: 3
+          type: door
+          name: Kitchen Door
+        - zone: 4
+          type: door
+          name: Front Door
+        - zone: 5
+          type: door
+          name: Utility Room Door
+        - zone: 6 
+        type: door
+          name: Garage (Back) Door
+    - id: 003D8A
+      binary_sensors:
+        - zone: 1
+          type: window
+          name: Dining Room Windows
+        - zone: 2
+          type: window
+          name: Piano Room Windows
+        - zone: 3
+          type: window
+          name: Jeremy's Office Windows
+        - zone: 4
+          type: window
+          name: Breakfast Windows
+        - zone: 5
+          type: window
+          name: Living Room Windows
+    - id: 0FB8DB
+      binary_sensors:
+        - zone: 1
+          type: window
+          name: Game Room Windows
+        - zone: 2
+          type: window
+          name: Workout Room Windows
+        - zone: 3
+          type: window
+          name: Sloane's Windows
+        - zone: 4
+          type: window
+          name: Guest Bed Windows
+        - zone: 5
+          type: window
+          name: Natasha's Office Windows
+    - id: 00AB3C
+      switches:
+        - zone: 1
+          name: chime

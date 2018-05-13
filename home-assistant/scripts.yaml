@@ -1,0 +1,11 @@
+door_chime:
+  alias: Beeeeeeeeep
+  sequence:
+    - service: homeassistant.turn_on
+      data:
+        entity_id: switch.chime
+    - delay:
+        milliseconds: 1
+    - service: homeassistant.turn_off
+      data:
+        entity_id: switch.chime

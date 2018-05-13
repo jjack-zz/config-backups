@@ -1,0 +1,50 @@
+motion_sensors:
+  name: Motion Sensors
+  view: no
+  entities:
+    - binary_sensor.living_room_motion
+
+door_sensors:
+  name: Door Sensors
+  view: no
+  entities:
+    - binary_sensor.kitchen_door
+    - binary_sensor.front_door
+    - binary_sensor.utility_room_door
+    - binary_sensor.garage_back_door
+
+window_sensors:
+  name: Window Sensors
+  view: no
+  entities:
+    - binary_sensor.master_bedroom_windows
+    - binary_sensor.dining_room_windows
+    - binary_sensor.piano_room_window
+    - binary_sensor.jeremys_office_windows
+    - binary_sensor.breakfast_windows
+    - binary_sensor.living_room_windows
+    - binary_sensor.game_room_windows
+    - binary_sensor.workout_room_windows
+    - binary_sensor.sloanes_windows
+    - binary_sensor.guest_bed_windows
+    - binary_sensor.natashas_office_windows
+
+door_chimes:
+  name: Door Chimes
+  view: no
+  entities:
+    - binary_sensor.kitchen_door
+    - binary_sensor.front_door
+    - binary_sensor.utility_room_door
+    - binary_sensor.garage_back_door
+    - binary_sensor.master_bedroom_windows
+    - binary_sensor.dining_room_windows
+    - binary_sensor.piano_room_window
+    - binary_sensor.jeremys_office_windows
+    - binary_sensor.breakfast_windows
+    - binary_sensor.living_room_windows
+    - binary_sensor.game_room_windows
+    - binary_sensor.workout_room_windows
+    - binary_sensor.sloanes_windows
+    - binary_sensor.guest_bed_windows
+    - binary_sensor.natashas_office_windows
