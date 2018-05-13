@@ -18,7 +18,7 @@
           type: door
           name: Utility Room Door
         - zone: 6 
-        type: door
+          type: door
           name: Garage (Back) Door
     - id: 003D8A
       binary_sensors:
